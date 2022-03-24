@@ -1,0 +1,21 @@
+Class Yes precision = 0.875
+Class Yes recall = 0.7777777777777778
+Class Yes F1 score = 0.823529411764706
+Class Depends precision = 0.5897435897435898
+Class Depends recall = 0.7419354838709677
+Class Depends F1 score = 0.6571428571428573
+Class No precision = 0.8095238095238095
+Class No recall = 0.68
+Class No F1 score = 0.7391304347826089
+
+
+Weighted precision: 0.7610885491320274
+Weighted recall: 0.7391304347826086
+Weighted F1 score: 0.7445298724404696
+Weighted false positive rate: 0.13255558071570667
+Model Accuracy on Test Data: 0.7391304347826086
+
+Confusion matrix: 
+28.0  8.0   0.0   
+4.0   23.0  4.0   
+0.0   8.0   17.0  

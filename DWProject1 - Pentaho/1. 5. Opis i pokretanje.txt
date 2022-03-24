@@ -1,0 +1,18 @@
+VAZNA NAPOMENA: Promeniti u order_items tabeli tipove podataka za order_item_price i order_item_quantity sa varchar na bigint, gresku smo pronasli tek na poslednjem koraku kada je trebalo pomnoziti ove dve vrednosti za tabelu cinjenica, morali bismo da radimo nekoliko stvari otpocetka.
+
+Projekat obuhvata kreiranje Data Mart-a za poslovni proces e-prodaje(Orders) u okviru jedne kompanije.
+Referencirana baza: http://www.databaseanswers.org/data_models/e_commerce/index.htm
+Podaci za bazu podataka generisani pomocu sajta: http://filldb.info/
+
+U xamppu upaliti apache i mySQL server, mysql server bi trebalo da radi na portu 3306.
+Upaliti pentaho tomcat server.
+Napraviti novu semu podataka pod nazivom dw_prva i prekopirati i pokrenuti skriptu FullDW u SQL-u.
+Napraviti novu semu podataka pod nazivom dw_druga, u njoj ce biti smesten datamart.
+
+Prvo su napravljene redom dimenzionalne tabele:
+*customer_dim_table; obuhvata sve kolone iz tabela customers i customer_payment_methods
+*product_dim_table; samo product table
+*invoice_payments_dim_table; obuhvata kolone iz tabela invoices i payments
+*date_dim_table; koja se kreira po uzoru na lab vezbu
+*orders_fact; tabela cinjenica
+

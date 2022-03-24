@@ -1,0 +1,114 @@
+U dokumentu detaljan izvestaj za 2. projekat prikazani su rezultati svih algoritama i njihovih varijacija. U ovom dokumentu izdvojicemo najbolje rezultate svih algoritama i dacemo
+konacan zakljucak za nas dataset.
+
+
+Najbolji rezultat za Naive Bayes je dobijen koriscenjem metode percentage split od 72%
+Karakteristike:
+91 ispravno klasifikovanih instanci		preciznost klasifikatora je 81.25%
+21 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.7148
+Prosecne vrednosti:
+TP rate: 0,813
+FP rate: 0.101
+F-measure: 0.811
+ROC area: 0.929
+U visualize threshold opciji vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.963.
+
+
+
+
+
+Najbolji rezultat za J48 sa odsecanjem je dobijen koriscenjem metode percentage split od 77%
+Karakteristike:
+73 ispravno klasifikovanih instanci		preciznost klasifikatora je 79.34%
+19 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.6847 
+Prosecne vrednosti:
+TP rate: 0,793
+FP rate: 0.111
+F-measure: 0.793
+ROC area: 0.852
+U visualize threshold opciji vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.918.
+
+
+J48 BEZ ODSECANJA - PERCENTAGE SPLIT 77%
+74 ispravno klasifikovanih instanci		preciznost klasifikatora je 80,4348%
+18 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.7004
+Prosecne vrednosti:
+TP rate: 0,804
+FP rate: 0.107
+F-measure: 0.804
+ROC area: 0.857
+U visualize threshold opciji vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.918.
+
+CROSS VALIDACIJA SA SVIM PROLAZIMA KORISCENJEM ALGORITMA J48 BEZ ODSECANJA DAJE LOSIJE REZULTATE ZA SVAKI PROLAZAK U ODNOSU NA J48 SA ODSECANJEM.
+KORISCENJEM PERCENTAGE SPLITA BEZ ODSECANJA UTVRDJENO JE DA JE NAJBOLJI SLUCAJ ODSECATI 77% I DOBIJENI SU BOLJI REZULTATI SA ODSECANJEM NEGO BEZ ODSECANJA.
+
+
+
+Najbolji rezultat za OneR je dobijen koriscenjem metode percentage split od 77%
+Karakteristike:
+73 ispravno klasifikovanih instanci		preciznost klasifikatora je 79.478%
+19 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.681
+Prosecne vrednosti:
+TP rate: 0,793
+FP rate: 0.121
+F-measure: 0.792
+ROC area: 0.836
+U dijagramu threshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.897.
+
+PONOVO SE VIDI DA PERCENTAGE SPLIT DAJE BOLJE REZULTATE U ODNOSU NA CROSS-VALIDATION I KOD ONER ALGORITMA, NAJVECI PROCENAT TACNOSTI KLASIFIKATORA JE 79.478% 
+KORISCENJEM METODE PERCENTAGE SPLIT OD 77%.
+
+ZEROR ALGORITAM NECEMO UZETI U RAZMATRANJE JER DAJE VEOMA LOSE REZULTATE; KAPPA STATISTIKA JE UVEK 0, A KOREKTNO KLASIFIKOVANE VREDNOSTI SU UVEK ISPOD 45%; 
+PONOVO PERCENTAGE SPLIT DAJE BOLJE REZULTATE U ODNOSU NA CROOS-VALIDATION.
+
+
+
+U detaljnom izvestaju su predstavljeni svi rezultati za KNN, i na osnovu njih je utvrdjeno da se dobijaju najbolji rezultati kada je K=5.
+KNN GDE JE K=5 - PERCENTAGE SPLIT 73%
+88 ispravno klasifikovanih instanci		preciznost klasifikatora je 81.48%
+20 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.7131
+Prosecne vrednosti:
+TP rate: 0,815
+FP rate: 0.113
+F-measure: 0.815
+ROC area: 0.904
+U dijagramu threshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.942, takodje klasa NO je jedino u ovom slucaju vrlo blizu YES klasi sa 0.940.
+
+
+
+
+KORISCENJEM RANDOM FORESTS ALGORITMA JE DOBIJEN NAJBOLJI REZULTAT OD SVIH ALGORITAMA KOJI SU IZVRSENI NAD OVIM DATASETOM:
+
+RANDOM FORESTS - PERCENTAGE SPLIT 73%
+90 ispravno klasifikovanih instanci		preciznost klasifikatora je 83.333%
+18 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.7433
+Prosecne vrednosti:
+TP rate: 0,833
+FP rate: 0.095
+F-measure: 0.833
+ROC area: 0.928
+U dijagramu threshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.968, takodje klasa NO je jedino u ovom slucaju vrlo blizu YES klasi sa 0.964.
+
+RANDOM FORESTS - PERCENTAGE SPLIT 73.5%
+89 ispravno klasifikovanih instanci		preciznost klasifikatora je 83.96%
+17 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.7521
+Prosecne vrednosti:
+TP rate: 0,840
+FP rate: 0.094
+F-measure: 0.839
+ROC area: 0.927
+U dijagramu threshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.968.

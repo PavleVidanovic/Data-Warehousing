@@ -1,0 +1,443 @@
+S obzirom da ce ovaj dokument sadrzati sve mere i detaljan izvestaj, navescemo ovde rezultate za sve klasifikatore i njihovu evaluaciju.
+
+Naive bayes- Cross validation 10 folds
+S obzirom da imamo samo 3 klase i da nemamo preveliki skup podataka nije nam bilo potrebno previse vremena da izgenerisemo izvestaj, sto bi u drugim slucajevima predstavljalo problem
+zbog izbora cross validacije.
+313 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 78.25%
+87 neispravno klasifikovanih instanci
+
+Kappa statistika: 0.6702
+Prosecne vrednosti:
+TP rate: 0,783
+FP rate: 0.118
+F-measure: 0.782
+ROC area: 0.914
+
+U dijagramu threshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.973.
+
+Naive bayes- Cross validation 9 folds
+S obzirom da imamo samo 3 klase i da nemamo preveliki skup podataka nije nam bilo potrebno previse vremena da izgenerisemo izvestaj, sto bi u drugim slucajevima predstavljalo problem
+zbog izbora cross validacije.
+316 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 79%
+84 neispravno klasifikovanih instanci
+
+Primecujemo bolji malo bolji procenat u klasifikaciji kada smanjimo broj ponavljanja na 9.
+
+Prosecne vrednosti:
+Kappa statistika nam je 0.6821 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,79 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.112 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.789 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.915 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.973 sto je isto kao i sa 10 ponavljanja.
+
+Naive bayes- Cross validation 8 folds
+S obzirom da imamo samo 3 klase i da nemamo preveliki skup podataka nije nam bilo potrebno previse vremena da izgenerisemo izvestaj, sto bi u drugim slucajevima predstavljalo problem
+zbog izbora cross validacije.
+311 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 77.75%
+89 neispravno klasifikovanih instanci
+
+Primecujemo losiji procenat u klasifikaciji u odnosu na 9 i 10 ponavljanja.
+
+Kappa statistika nam je 0.6633 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,778 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.119 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.777 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.915 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.971 sto je isto kao i sa 10 ponavljanja.
+
+Naive bayes- Cross validation 7 folds
+S obzirom da imamo samo 3 klase i da nemamo preveliki skup podataka nije nam bilo potrebno previse vremena da izgenerisemo izvestaj, sto bi u drugim slucajevima predstavljalo problem
+zbog izbora cross validacije.
+311 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 77.75%
+89 neispravno klasifikovanih instanci
+
+Primecujemo losiji procenat u klasifikaciji u odnosu na 9 i 10 ponavljanja. ISTI REZULTAT KAO I SA 8 PONAVLJANJA!
+
+Kappa statistika nam je 0.6633 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,778 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.119 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.777 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.915 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.971 sto je isto kao i sa 10 ponavljanja.
+
+
+Naive bayes- Cross validation 6 folds
+S obzirom da imamo samo 3 klase i da nemamo preveliki skup podataka nije nam bilo potrebno previse vremena da izgenerisemo izvestaj, sto bi u drugim slucajevima predstavljalo problem
+zbog izbora cross validacije.
+309 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 77.25%
+91 neispravno klasifikovanih instanci
+
+Primecujemo losiji procenat u klasifikaciji u odnosu na 9 i 10 ponavljanja. ISTI REZULTAT KAO I SA 7 I 8 PONAVLJANJA S TIM DA IPAK IMA MANJE ISPRAVNO KLASIFIKOVANIH INSTANCI
+
+Kappa statistika nam je 0.6552 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,773 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.123 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.772 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.915 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.972 sto je isto kao i sa 10 ponavljanja.
+
+
+Naive bayes- Cross validation 5 folds
+S obzirom da imamo samo 3 klase i da nemamo preveliki skup podataka nije nam bilo potrebno previse vremena da izgenerisemo izvestaj, sto bi u drugim slucajevima predstavljalo problem
+zbog izbora cross validacije.
+309 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 77.25%
+91 neispravno klasifikovanih instanci
+
+Primecujemo losiji procenat u klasifikaciji u odnosu na 9 i 10 ponavljanja. ISTI REZULTAT KAO I SA 6, 7 I 8 PONAVLJANJA S TIM DA SU OSTALI PARAMETRI IZVESTAJA LOSIJI U ODNOSU
+NA 6,7 I 8 PONAVLJANJA.
+
+Kappa statistika nam je 0.6551 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,773 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.123 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.772 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.914 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.973 sto je isto kao i sa 10 ponavljanja.
+
+PRIMECUJEMO DA PRILIKOM IZBORA NAIVE BAYES ALGORITMA KORISCENJEM CROOS-VALIDATION U NASEM SLUCAJU TREBA IZABRATI 9 PONAVLJANJA JER DAJE NAJBOLJI REZULTAT OD 79% STO JE MALO BOLJE U
+ODNOSU NA OSTALE, TAKODJE, PRIMECUJEMO DA NEMA PREVELIKE RAZLIKE U IZORU PONAVLJANJA IZMEDJU 5 I 6, KAO I 7 I 8, S TIM DA PROCENTUALNO TACNOST KLASIFIKATORA OPADA POSLE 9 PONAVLJANJA.
+
+
+Naive bayes- PERCENTAGE SPLIT 60%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+120 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 75%
+40 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6188 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,750 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.141 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.749 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.896 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.966.
+
+
+Naive bayes- PERCENTAGE SPLIT 70%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+94 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 78.33%
+26 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6689 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,783 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.123 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.782 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.913 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.963.
+
+Primecujemo da 70% percentage split daje bolje rezultate nego percentage split od 60%.
+
+
+Naive bayes- PERCENTAGE SPLIT 80%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+63 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 78.75%
+17 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6732 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,788 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.120 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.787 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.897 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.943.
+
+Primecujemo da 80% percentage split daje bolje rezultate nego percentage split od 60%, a priblizno isto kao 70%.
+
+Naive bayes- PERCENTAGE SPLIT 90%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+30 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 75%
+10 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6063 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,750 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.148 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.750 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.893 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.967.
+
+Primecujemo da 90% percentage split daje najlosije rezultate, isto kao i 60% percentage split.
+
+
+Naive bayes- PERCENTAGE SPLIT 72%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+91 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 81.25%
+21 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.7148 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,813 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.101 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.811 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.929 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.963, ali u odnosu na ostale takodje je NO znatno bolje i to od 0.946
+
+Primecujemo da 72% percentage split daje najbolje rezultate.
+
+
+CROSS VALIDATION OD 9 PONAVLJANJA DAJE MALO BOLJE REZULTATE NEGO PERCENTAGE SPLIT OD 80%, S TIM DA PERCENTAGE SPLIT OD 72% DAJE IPAK NAJBOLJE REZULTATE I TO ZA 2.25% BOLJE.
+
+
+
+J48 - Cross validation 10 folds
+292 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 73%
+108 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.5901 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,730 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.146 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.730 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.825 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.911.
+
+J48 - Cross validation 9 folds
+299 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 74.75%
+101 neispravno klasifikovanih instanci
+
+Primecujemo bolji malo bolji procenat u klasifikaciji kada smanjimo broj ponavljanja na 9.
+
+Kappa statistika nam je 0.6175 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,748 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.135 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.748 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.834 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.898.
+
+J48 - Cross validation 8 folds i J48 - Cross validation 7 folds necemo zapisivati jer imaju znatno losije rezultate od 10 i 9 ponavljanja.
+
+
+J48 - Cross validation 6 folds
+293 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 73.25%
+107 neispravno klasifikovanih instanci
+
+Primecujemo losiji procenat u klasifikaciji u odnosu na 9, ali bolji od 10 prolaza i znatno bolji od 6 i 7.
+
+Kappa statistika nam je 0.5947 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,733 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.144 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.732 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.825 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.896.
+
+
+J48 - Cross validation 5 folds
+295 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 73.75%
+105 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6017 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,738 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.142 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.737 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.814 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.916.
+
+
+PRIMECUJEMO DA JE NAJBOLJI REZULTAT ZA J48 CROSS VLADITAION SA 9 PONAVLJANJA STO CINI TACNOST KLASIFIKATORA OD 74.75%.
+
+
+
+
+J48 - PERCENTAGE SPLIT 60%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+115 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 71%
+45 neispravno klasifikovanih instanci
+
+Procenat tanosti, kao i svi ostali parametri su losiji od bilo koje cross validacije tako da se nece razmatrati.
+
+J48 - PERCENTAGE SPLIT 70%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+88 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 73.33%
+32 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.5918 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,733 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.151 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.733 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.845 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.901.
+
+Primecujemo da 70% percentage split daje bolje rezultate nego percentage split od 60%.
+
+
+J48 - PERCENTAGE SPLIT 80%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+59 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 73.75%
+21 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.5965 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,738 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.149 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.737 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.793 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.902.
+
+Primecujemo da 80% percentage split daje malo bolje rezultate nego percentage split od 70%.
+
+J48 - PERCENTAGE SPLIT 90% daje najlosije rezultate pa nece uci u razmatranje.
+
+J48 - PERCENTAGE SPLIT 77%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+73 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 79.34%
+19 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6847 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,793 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.111 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.793 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.852 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.918.
+
+Primecujemo da 77% percentage split J48 algoritma daje najbolje rezultate koriscenjem opcije percentage split i to 79.34% tacnosti klasifikatora.
+PRIMECUJEMO DA ZA J48 ALGORITAM NAJBOLJE REZULTATE DAJE PERCENTAGE SPLIT OD 77% I TO 79.34% TACNOSTI KLASIFIKATORA.
+
+CROSS VALIDACIJA SA SVIM PROLAZIMA KORISCENJEM ALGORITMA J48 BEZ ODSECANJA DAJE LOSIJE REZULTATE ZA SVAKI PROLAZAK U ODNOSU NA J48 SA ODSECANJEM.
+
+KORISCENJEM PERCENTAGE SPLITA BEZ ODSECANJA UTVRDJENO JE DA JE NAJBOLJI SLUCAJ ODSECATI 77% I ZAPRAVO SMO DOBILI BOLJE REZULTATE BEZ ODSECANJA NEGO SA ODSECANJEM
+
+J48 BEZ ODSECANJA - PERCENTAGE SPLIT 77%
+Brze vreme izvrsenja u odnosu na cross validation sto je i ocekivano.
+74 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 80,4348%
+18 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.7004 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,804 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.107 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.804 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.857 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.918.
+
+UPOREDJIVANJEM REZULTATA UTVRDILI SMO DA JE ZA ALGORITAM J48 NAJBOLJE KORISTITI ALGORITAM BEZ ODSECANJA I PERCENTAGE SPLIT NA 77% I TIME DOBIJAMO TACNOST KLASIFIKATORA OD 80.4%.
+
+
+ZEROR ALGORITAM NECEMO UZETI U RAZMATRANJE JER DAJE VEOMA LOSE REZULTATE; KAPPA STATISTIKA JE UVEK 0, A KOREKTNO KLASIFIKOVANE VREDNOSTI SU
+UVEK ISPOD 45%; PONOVO PERCENTAGE SPLIT DAJE BOLJE REZULTATE U ODNOSU NA CROOS-VALIDATION.
+
+PONOVO SE VIDI DA PERCENTAGE SPLIT DAJE BOLJE REZULTATE U ODNOSU NA CROSS-VALIDATION I KOD ONER ALGORITMA, NAJVECI PROCENAT TACNOSTI KLASIFIKATORA JE 79.478% KORISCENJEM METODE PERCENTAGE
+SPLIT OD 77%.
+
+ONER - PERCENTAGE SPLIT 77%
+73 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 79.478%
+19 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.681 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,793 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.121 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.792 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.836 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.897.
+
+
+
+KNN GDE JE K=1 - CROOS-VALIDATION 6 FOLDS DAJE NAJBOLJI REZULTAT ZA CROSS VALIDACIJU
+302 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 75.5%
+98 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6279 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,755 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.133 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.756 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.815 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.884.
+
+
+KNN GDE JE K=1 - PERCENTAGE SPLIT 72%  DAJE NAJBOLJI REZULTAT ZA PERCENTAGE SPLIT
+85 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 75.892%
+27 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6301 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,759 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.139 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.759 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.810 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.866.
+
+KORISCENJEM ALGORITMA KNN GDE JE K=1 NEZNATNO JE BOLJI REZULTAT KORISCENJEM PERCENTAGE SPLIT OD 72% CIJA JE TACNOST KLASIFIKATORA  75.892%.
+
+
+KNN GDE JE K=3 - CROOS-VALIDATION 6 FOLDS DAJE NAJBOLJI REZULTAT ZA CROSS VALIDACIJU
+314 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 78.5%
+86 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.673 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,785 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.118 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.786 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.878 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.931.
+
+
+KNN GDE JE K=3 - PERCENTAGE SPLIT 70%  DAJE NAJBOLJI REZULTAT ZA PERCENTAGE SPLIT
+95 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 79.1667%
+25 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6777 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,792 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.127 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.792 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.899 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.941.
+
+KORISCENJEM ALGORITMA KNN GDE JE K=3 NEZNATNO JE BOLJI REZULTAT KORISCENJEM PERCENTAGE SPLIT OD 70% CIJA JE TACNOST KLASIFIKATORA  79.1667%.
+
+
+KNN GDE JE K=5 - CROOS-VALIDATION 8 FOLDS DAJE NAJBOLJI REZULTAT ZA CROSS VALIDACIJU
+317 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 79.25%
+83 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.6832 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,793 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.118 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.794 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.908 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.958.
+
+
+KNN GDE JE K=5 - PERCENTAGE SPLIT 73%  DAJE NAJBOLJI REZULTAT ZA PERCENTAGE SPLIT
+88 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 81.48%
+20 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.7131 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,815 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.113 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.815 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.904 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.942, zanimljivo je ovde napomenuti da je klasifikovanje za NO priblizno YES, sto do 
+sada nije bilo slucaj, i iznosi 940.
+
+KORISCENJEM ALGORITMA KNN GDE JE K=5 BOLJI JE REZULTAT KORISCENJEM PERCENTAGE SPLIT OD 73% CIJA JE TACNOST KLASIFIKATORA 81.48%.
+
+
+
+RANDOM FORESTS - CROOS-VALIDATION 8 FOLDS DAJE NAJBOLJI REZULTAT ZA CROSS VALIDACIJU
+322 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 80.5%
+78 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.703 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,805 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.109 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.806 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.24 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.971.
+
+
+RANDOM FORESTS - PERCENTAGE SPLIT 73%  DAJE NAJBOLJI REZULTAT ZA PERCENTAGE SPLIT
+90 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 83.333%
+18 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.7433 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,833 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.095 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.833 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.928 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.968, zanimljivo je ovde napomenuti da je klasifikovanje za NO priblizno YES, sto do 
+sada nije bilo slucaj, i iznosi 964 i oba su najblize 1.
+
+RANDOM FORESTS - PERCENTAGE SPLIT 73.5%  DAJE NAJBOLJI REZULTAT ZA PERCENTAGE SPLIT
+89 ispravno klasifikovanih instanci		preciznost naseg klasifikatora je 83.96%
+17 neispravno klasifikovanih instanci
+
+Kappa statistika nam je 0.7521 sto ukazuje da je klasifikator dobar jer je broj blizi 1.
+Videcemo tp rate za svaku klasu, prosecna vrednost za tp rate je 0,840 sto je dobar rezultat jer je klasifikator dobro klasifikovao podatke i to vidimo zato sto je tp rate blizu 1.
+FP rate prosecan je 0.094 sto je isto dobro jer broj treba biti blize 0.
+F-mesaure je 0.839 i on pokazuje precinzost klaisifikatora. Ovaj broj i nije toliko dobar jer treba da bude blize 1.
+ROC area je 0.927 sto ukazuje na dobre rezultate dobro klasifikovanih tp rate i fp rate.
+U dijagramu treshold vidimo roc krivu i vidimo da je najbolje klasifikovana YES klasa sto cini 0.968, zanimljivo je ovde napomenuti da je klasifikovanje za NO priblizno YES, sto do 
+sada nije bilo slucaj, i iznosi 955 i oba su najblize 1.
+
+KORISCENJEM ALGORITMA RANDOM FORESTS BOLJI JE REZULTAT KORISCENJEM PERCENTAGE SPLIT OD 73% CIJA JE TACNOST KLASIFIKATORA 83.333%, ZANIMLJIVO JE I TO DA JE PERCENTAGE SPLIT OD 73.5%
+DAO ZA NIJANSU BOLJE REZULTATE CIJA JE TACNOST KLASIFIKATORA 83.96%.
